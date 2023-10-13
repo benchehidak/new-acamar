@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const Timer = () => {
-  const targetDate = new Date('2023-10-14T22:00:00').getTime();
+  const targetDate = new Date('2023-10-15T21:00:00').getTime();
   console.log(targetDate);
   // Calculate the time remaining until the target date
   const calculateTimeRemaining = () => {

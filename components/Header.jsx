@@ -59,13 +59,13 @@ export default function UserHeader() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white">
+                <li className="text-white" style={{fontFamily: 'Dalek Pinpoint'}}>
                   <Link href="/">
                     Home
                   </Link>
                 </li>
-                <li className="text-white">
-                  <Link href="/book">
+                <li className="text-white" style={{fontFamily: 'Dalek Pinpoint'}}>
+                  <Link href="/buy">
                     Buy
                   </Link>
                 </li>
