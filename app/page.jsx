@@ -13,19 +13,48 @@ const Home = () => {
   return (
     <>
       <UserHeader />
-      <div className="bgimage">
+      <div>
         <div
           className="content"
           style={{
             fontFamily: "Dalek Pinpoint",
             color: "#fcfcfc",
             textAlign: "center",
+            fontSize: "2.5rem",
+
           }}
         >
-          BLIND RELEASE EXPIRES IN :
+          LINEUP :
         </div>
-        {/* <NoSSR /> */}
-        <div className="flex items-center justify-center">
+        <div className="contactinfo text-slate-200">
+          <div className="contactinfo__item" style={{
+            textTransform: "uppercase",
+          }} >
+            <div><span style={{ color: "#ff7e03" }} >c</span>haotic <span style={{ color: "#ff7e03" }} >h</span>armony</div>
+          </div>
+          <div className="contactinfo__item" style={{
+            textTransform: "uppercase",
+          }}>
+            <div><span style={{ color: "#ff7e03" }} >c</span>old <span style={{ color: "#ff7e03" }} >s</span>eeps</div>
+          </div>
+          <div className="contactinfo__item" style={{
+            textTransform: "uppercase",
+          }}>
+            <div><span style={{ color: "#ff7e03" }} >w</span>hitefeel</div>
+          </div>
+          <div className="contactinfo__item" style={{
+            textTransform: "uppercase",
+          }}>
+            <div><span style={{ color: "#ff7e03" }} >s</span>miley'zz</div>
+          </div>
+          <div className="contactinfo__item" style={{
+            textTransform: "uppercase",
+          }}>
+            <div><span style={{ color: "#ff7e03" }} >n</span>ewram</div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center justify-center">
           <Link
             href="/buy"
             className="bookbtn inline-flex items-center justify-center w-full px-4 py-2 mt-4 text-base font-medium text-white border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 "
@@ -46,7 +75,6 @@ const Home = () => {
             </svg>
           </Link>
         </div>
-      </div>
       <Footer />
     </>
   );

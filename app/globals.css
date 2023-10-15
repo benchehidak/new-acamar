@@ -28,7 +28,7 @@ body{
         width: 250px;
 }
 .bookbtn:hover{
-        background-color: #dfd2f0;
+        background-color: #ff7e03;
 }
 .loginbtn:hover{
         background-color: #dfd2f0;
@@ -71,16 +71,81 @@ text-transform: uppercase;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 5% 0;
+        padding-top: 2%;
+        padding-bottom: 0;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-size: clamp(20px, 1vw, 81px);
-        font-family: 'Nexa'
+        font-family: 'Nexa';
+        font-size: 2rem;
+        font-weight: 700;
 }
 .contactinfo__item{
         margin: 1% 0;
 }
 
+
+@-webkit-keyframes ticker {
+        0% {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          visibility: visible;
+        }
+        100% {
+          -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+        }
+      }
+      @keyframes ticker {
+        0% {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          visibility: visible;
+        }
+        100% {
+          -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+        }
+      }
+      .ticker-wrap {
+        
+        width: 100%;
+        overflow: hidden;
+        height: 8rem;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding-left: 100%;
+        box-sizing: content-box;
+        font-family: 'Nexa';
+        font-size: 4rem;
+      }
+      .ticker-wrap .ticker {
+        display: inline-block;
+        height: 4rem;
+        line-height: 4rem;
+        white-space: nowrap;
+        padding-right: 100%;
+        box-sizing: content-box;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-name: ticker;
+        animation-name: ticker;
+        -webkit-animation-duration: 30s;
+        animation-duration: 30s;
+      }
+      .ticker-wrap .ticker__item {
+        display: inline-block;
+        padding: 0 2rem;
+        font-size: 2rem;
+        color: white;
+        text-transform: uppercase;
+      }
+      .ticker__item {
+        color: white;
+        text-decoration: none;
+        font-size: 3rem !important;
+      }
 
 @media screen and (max-width: 768px) 
 {
@@ -96,5 +161,9 @@ text-transform: uppercase;
         footer
         {
                 font-size: clamp(8px, 1vw, 10px);
+        }
+        .contactinfo
+        {
+                padding: 15% 0;
         }
 }
