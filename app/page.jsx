@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 import Footer from "@/components/Footer";
  
 // const NoSSR = dynamic(() => import('../components/timer'), { ssr: false })
-
+/// dali test
 const Home = () => {
 
 
