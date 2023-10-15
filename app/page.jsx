@@ -14,18 +14,6 @@ const Home = () => {
     <>
       <UserHeader />
       <div>
-        <div
-          className="content"
-          style={{
-            fontFamily: "Dalek Pinpoint",
-            color: "#fcfcfc",
-            textAlign: "center",
-            fontSize: "2.5rem",
-
-          }}
-        >
-          LINEUP :
-        </div>
         <div className="contactinfo text-slate-200">
           <div className="contactinfo__item" style={{
             textTransform: "uppercase",
@@ -53,6 +41,9 @@ const Home = () => {
             <div><span style={{ color: "#ff7e03" }} >n</span>ewram</div>
           </div>
         </div>
+      </div>
+      <div className="text-center text-slate-300" style={{fontFamily: "nexa", textTransform: "uppercase"}}>
+      <span style={{ color: "#ff7e03" }} >A</span>t <span style={{ color: "#ff7e03" }} >h</span>otel  <span style={{ color: "#ff7e03" }} >m</span>arhaba <span style={{ color: "#ff7e03" }} >i</span>ndoor <span style={{ color: "#ff7e03" }} >s</span>at. 4th <span style={{ color: "#ff7e03" }} >n</span>ovember 2023
       </div>
       <div className="flex items-center justify-center">
           <Link

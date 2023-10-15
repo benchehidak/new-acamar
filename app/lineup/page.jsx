@@ -7,18 +7,6 @@ export default function BuyPage() {
         <>
             <UserHeader />
             <div>
-                <div
-                    className="content"
-                    style={{
-                        fontFamily: "Dalek Pinpoint",
-                        color: "#fcfcfc",
-                        textAlign: "center",
-                        fontSize: "2.5rem",
-
-                    }}
-                >
-                    LINEUP :
-                </div>
                 <div class="ticker-wrap">
                     <div class="ticker">
                         <div className="ticker__item"> <span style={{color: "#ff7e03"}} >c</span> haotic harmony </div>
