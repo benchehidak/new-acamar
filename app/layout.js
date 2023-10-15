@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
         <head>
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width" />
+          <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet"/>
           <link href="https://fonts.cdnfonts.com/css/dalek-pinpoint" rel="stylesheet"/>
           <link href="/favicon.ico" rel="shortcut icon" />
           <link rel="preconnect" href="https://fonts.googleapis.com"/>

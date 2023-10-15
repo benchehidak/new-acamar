@@ -15,7 +15,7 @@ export default function BuyPage() {
                     
                 }}
                 >
-                BLIND RELEASE 
+                First RELEASE 
                 </div>
                 <div
                 className="content"
@@ -34,13 +34,13 @@ export default function BuyPage() {
                     <div>TUNIS - MENZAH 5 90 165 240</div>
                 </div>
                 <div className="contactinfo__item">
-                    <div>SOUSSE - KHEZEMA 99 050 118</div>
+                    <div>SOUSSE - SAHLOUL 99 617 061</div>
                 </div>
                 <div className="contactinfo__item">
-                    <div>SOUSSE - SAHLOUL 93 158 643</div>
+                    <div>SOUSSE - VILLE 93 158 643</div>
                 </div>
                 <div className="contactinfo__item">
-                    <div>SOUSSE VILLE 25 051 727</div>
+                    <div>SOUSSE - 25 051 727</div>
                 </div>
 
                 </div>

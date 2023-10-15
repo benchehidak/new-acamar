@@ -75,9 +75,7 @@ text-transform: uppercase;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-size: clamp(20px, 1vw, 81px);
-        font-family: 'Lato', sans-serif;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Tilt Warp', sans-serif;
+        font-family: 'Nexa'
 }
 .contactinfo__item{
         margin: 1% 0;

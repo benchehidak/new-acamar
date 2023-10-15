@@ -16,8 +16,8 @@ import Footer from "@/components/partials/footer";
 import MobileMenu from "@/components/partials/sidebar/MobileMenu";
 import useMobileMenu from "@/hooks/useMobileMenu";
 import useMonoChrome from "@/hooks/useMonoChrome";
-import MobileFooter from "@/components/partials/footer/MobileFooter";
-import { useSelector } from "react-redux";
+// import MobileFooter from "@/components/partials/footer/MobileFooter";
+// import { useSelector } from "react-redux";
 import useRtl from "@/hooks/useRtl";
 import useDarkMode from "@/hooks/useDarkMode";
 import useSkin from "@/hooks/useSkin";
@@ -128,7 +128,7 @@ export default function RootLayout({ children }) {
           </div>
         </div>
       </div>
-      {width < breakpoints.md && <MobileFooter />}
+      {/* {width < breakpoints.md && <MobileFooter />} */}
       {width > breakpoints.md && (
         <Footer className={width > breakpoints.xl ? switchHeaderClass() : ""} />
       )}

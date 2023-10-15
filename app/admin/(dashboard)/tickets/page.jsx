@@ -4,10 +4,14 @@ import SalesTable from "@/components/partials/table/salesTable";
 import Loading from "@/components/Loading";
 import { useEffect, useState } from "react";
 import axios from "axios";
+// import { useSession } from "next-auth/react";
+
 export default function bookingPage(){
     const [loading, setLoading] = useState(true);
     const [data, setData] = useState([]);
     const [error, setError] = useState(null);
+    // const {data: session} = useSession();
+    // console.log(session);
     useEffect(() => {
       const fetchData = async () => {
         try {

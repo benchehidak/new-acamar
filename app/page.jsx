@@ -5,7 +5,7 @@ import UserHeader from "@/components/Header"
 import dynamic from 'next/dynamic';
 import Footer from "@/components/Footer";
  
-const NoSSR = dynamic(() => import('../components/timer'), { ssr: false })
+// const NoSSR = dynamic(() => import('../components/timer'), { ssr: false })
 
 const Home = () => {
 
@@ -24,7 +24,7 @@ const Home = () => {
         >
           BLIND RELEASE EXPIRES IN :
         </div>
-        <NoSSR />
+        {/* <NoSSR /> */}
         <div className="flex items-center justify-center">
           <Link
             href="/buy"

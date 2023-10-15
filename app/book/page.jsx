@@ -22,8 +22,8 @@ export default function book()
                 phone: "90 165 240",
             },
             {
-                city: 'SOUSSE - KHEZEMA',
-                phone: '99 050 118',
+                city: 'SOUSSE - SAHLOUL',
+                phone: '99 617 061',
             },
             {
                 city: 'SOUSSE -SAHLOUL',
