@@ -1,6 +1,6 @@
 import clientPromise from "@/lib/mongo/client";
 import { NextResponse } from "next/server";
-import { getSession } from "next-auth/react";
+// import { getSession } from "next-auth/react";
 
 export async function POST(req) {
     

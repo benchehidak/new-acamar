@@ -4,15 +4,17 @@ import {React, useEffect, useState} from "react";
 import GroupChart2 from "@/components/partials/widget/chart/group-chart-2";
 import Loading from "@/components/Loading";
 import Card from "@/components/ui/Card";
+// import { useSession } from "next-auth/react";
 
 
 const StarterPage = () => {
   const { data: session } = useSession();
-  console.log(session);
+  // console.log(session);
   const [data, setData] = useState([]);
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  // const { data: session } = useSession();
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -176,6 +178,7 @@ const statistics = [
 ];
 
   if (loading) return <Loading />;
+  if (session.user.name != "kdeco") return <div>Access Denied</div>;
   if (error) return "Error!";
   console.log(data);
   console.log(bookings);
