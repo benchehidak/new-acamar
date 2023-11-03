@@ -24,6 +24,7 @@ const ClientProtectPage = () => {
           .then((res) => res.json())
           .then((json) => {
             alert(json.message);
+            window.location.reload();
           });
       }
 
