@@ -15,6 +15,11 @@ export const menuItems = [
     icon: "heroicons:shopping-cart",
     link: "/admin/sell",
   },
+  {
+    title: 'Scan',
+    icon: "heroicons:qr-code",
+    link: '/admin/scan'
+  }
   
   
 ];

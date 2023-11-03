@@ -29,7 +29,7 @@ const ClientProtectPage = () => {
 
     };
   return (
-      <div style={{width: '400px', margin: 'auto'}}>
+      <div style={{width: '300px', margin: 'auto'}}>
       {session && session.user.email === 'kdeco' && 
       (
         <QrScanner
