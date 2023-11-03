@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
           <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,700&family=Poppins:wght@300&family=Tilt+Warp&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet"/>
+          <link href="https://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet"/>
         </head>
           
         <body className="font-inter  custom-tippy dashcode-app">

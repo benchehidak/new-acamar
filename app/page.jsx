@@ -12,38 +12,52 @@ const Home = () => {
 
   return (
     <>
+    
       <UserHeader />
-      <div>
-        <div className="contactinfo text-slate-200">
+      <div className="contactinfo">
+        <div className="text-left text-slate-300" style={{fontFamily: "nexa", textTransform: "uppercase"}}>
+        <div className=" text-slate-200">
+          <div className="contactinfo__item" style={{
+              textTransform: "uppercase",
+            }}>
+            <div>19:00 - <span style={{ color: "#ff7e03" }} >s</span>miley'zz</div>
+          </div>
+          <div className="contactinfo__item" style={{
+            textTransform: "uppercase",
+          }}>
+            <div>21:00 - <span style={{ color: "#ff7e03" }} >c</span>old <span style={{ color: "#ff7e03" }} >s</span>eeps</div>
+          </div>
+          <div className="contactinfo__item" style={{
+            textTransform: "uppercase",
+          }}>
+            <div>22:15 - <span style={{ color: "#ff7e03" }} >n</span>ewram</div>
+          </div>
+          <div className="contactinfo__item" style={{
+            textTransform: "uppercase",
+          }}>
+            <div>23:30 - <span style={{ color: "#ff7e03" }} >w</span>hitefeel</div>
+          </div>
+          
           <div className="contactinfo__item" style={{
             textTransform: "uppercase",
           }} >
-            <div><span style={{ color: "#ff7e03" }} >c</span>haotic <span style={{ color: "#ff7e03" }} >h</span>armony</div>
+
+            <div>00:45 - <span style={{ color: "#ff7e03" }} >c</span>haotic <span style={{ color: "#ff7e03" }} >h</span>armony</div>
           </div>
-          <div className="contactinfo__item" style={{
-            textTransform: "uppercase",
-          }}>
-            <div><span style={{ color: "#ff7e03" }} >c</span>old <span style={{ color: "#ff7e03" }} >s</span>eeps</div>
-          </div>
-          <div className="contactinfo__item" style={{
-            textTransform: "uppercase",
-          }}>
-            <div><span style={{ color: "#ff7e03" }} >w</span>hitefeel</div>
-          </div>
-          <div className="contactinfo__item" style={{
-            textTransform: "uppercase",
-          }}>
-            <div><span style={{ color: "#ff7e03" }} >s</span>miley'zz</div>
-          </div>
-          <div className="contactinfo__item" style={{
-            textTransform: "uppercase",
-          }}>
-            <div><span style={{ color: "#ff7e03" }} >n</span>ewram</div>
-          </div>
+          
+          
+        </div> 
         </div>
       </div>
       <div className="text-center text-slate-300" style={{fontFamily: "nexa", textTransform: "uppercase"}}>
       <span style={{ color: "#ff7e03" }} >A</span>t <span style={{ color: "#ff7e03" }} >h</span>otel  <span style={{ color: "#ff7e03" }} >m</span>arhaba <span style={{ color: "#ff7e03" }} >i</span>ndoor <span style={{ color: "#ff7e03" }} >s</span>at. 4th <span style={{ color: "#ff7e03" }} >n</span>ovember 2023
+      <br/>
+      <div className="text-center " style={{fontFamily: "nexa", fontWeight:700 , textTransform: "uppercase", color: "#ff7e03"}}>
+        BE ON TIME ! 
+      </div>
+      <div style={{fontFamily: 'Brittany Signature', textTransform: 'none', fontSize: '32px'}} >
+        See you soon
+      </div>
       </div>
       <div className="flex items-center justify-center">
           <Link
