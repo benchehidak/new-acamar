@@ -28,10 +28,9 @@ const ClientProtectPage = () => {
       }
 
     };
+    console.log(session)
   return (
       <div style={{width: '300px', margin: 'auto'}}>
-      {session && session.user.email === 'kdeco' && 
-      (
         <QrScanner
           onDecode={(result) => handleScan(result)}
           onError={(error) => console.log(error?.message)}
@@ -41,8 +40,7 @@ const ClientProtectPage = () => {
         }}
           scanDelay={3000}  
       />
-      )
-      }
+     
       </div>
   );
 }
