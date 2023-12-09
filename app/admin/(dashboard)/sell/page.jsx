@@ -16,9 +16,9 @@ export default function SellPage() {
     const [modalContent, setModalContent] = useState('');
     const { data: session } = useSession();
     const releases = [
-        { value: "early", label: "Early Bird" },
-        { value: "first", label: "First Release" },
-        { value: "second", label: "Second Release" },
+        { value: "early", label: "First Release" },
+        { value: "first", label: "Sur Place" },
+        // { value: "second", label: "Second Release" },
     ];
 
     const clearForm = () => {

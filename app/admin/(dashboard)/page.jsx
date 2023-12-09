@@ -82,9 +82,9 @@ const StarterPage = () => {
       mostActiveSeller = seller;
     }
 
-    if (price === 20) {
+    if (price === 25) {
       earlybird++;
-    } else if (price === 30) {
+    } else if (price === 35) {
       firstrelease++;
     }
     else if (price === 40) {

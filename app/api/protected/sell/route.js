@@ -68,12 +68,12 @@ export async function POST(req) {
         secure: false, // true for 465, false for other ports
         auth: {
           user: 'acamar.org@gmail.com',//'no-reply@gaviota.com.tn', // your email address
-          pass: 'hofs xzjw suzz vhge' //'Dalibendhiab@10' // your email password
+          pass: 'ksqk mcnp eond qdop' //'Dalibendhiab@10' // your email password
         }
   
       })
       const mailOptions = {
-          from: 'jat.sousse@gmail.com',
+          from: 'acamar.org@gmail.com',
           to: email ,
           subject: `Your Pass for ACAMAR ${uuid.split('-')[0]}`,
           html: `
