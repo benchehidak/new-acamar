@@ -96,7 +96,7 @@ export async function POST(req) {
                 font-family: sans-serif;
               }
               .letter {
-                background-image: url("https://i.imgur.com/eMsxwZs.jpeg");
+                background-image: url("https://acamar.online/assets/images/bg.jpg");
                 background-size: cover;
                 padding: 50px;
                 color: white;
@@ -110,7 +110,7 @@ export async function POST(req) {
             <body class="letter">
             <h1>Your ACAMAR Event Ticket and QR Code</h1>
               <h1>Dear ${name},</h1>
-              <p>Thank you for purchasing a ticket to attend ACAMAR on November 04, 2023, Sousse. Attached to this email, you will find your personalized ticket with a unique QR code.</p>
+              <p>Thank you for purchasing a ticket to attend ACAMAR on December 23, 2023, Sousse. Attached to this email, you will find your personalized ticket with a unique QR code.</p>
               <h2>Instructions:</h2>
               <ol>
                   <li>Keep a digital or printed copy of this email with your ticket and QR code.</li>
