@@ -82,7 +82,7 @@ export async function POST(req) {
           pass: 'ksqk mcnp eond qdop' //'Dalibendhiab@10' // your email password
         }
   
-      })
+      })/////
       const mailOptions = {
           from: 'acamar.org@gmail.com',
           to: email ,
