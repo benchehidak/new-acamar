@@ -99,7 +99,7 @@ export async function POST(req) {
                 background-image: url("https://acamar.online/assets/images/bg.jpg");
                 background-size: cover;
                 padding: 50px;
-                color: white;
+                color: #ff7e03;
               }
               li {
                 list-style-type: none;
